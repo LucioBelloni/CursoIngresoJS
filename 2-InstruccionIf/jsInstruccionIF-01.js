@@ -1,6 +1,6 @@
 function mostrar()
 {
 	//tomo la edad  
-	alert("ok");
+	alert("tu hermana");
 
 }//FIN DE LA FUNCIÓN
