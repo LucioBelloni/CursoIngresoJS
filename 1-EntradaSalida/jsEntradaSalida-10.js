@@ -10,9 +10,12 @@ function mostrarAumento()
 	
 	let importe; 
 
-	importe =parseInt( document.getElementById("txtIdImporte").value);
-	importe = importe = (importe /100)*25;
+	importe = document.getElementById("txtIdImporte").value;
 	
-	document.getElementById("txtIdResultado").value = importe;
+	importe = parseInt(importe);
+
+	r = importe = (importe /100)*25;
+	
+	document.getElementById("txtIdResultado").value = r;
    
 }

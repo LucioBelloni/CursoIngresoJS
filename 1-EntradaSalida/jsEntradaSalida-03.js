@@ -8,11 +8,14 @@ y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
 	let nombreIngresado;
+	let mensaje;
 
-	nombreIngresado = document.getElementById ("txtIdNombre").value;
+	nombreIngresado = document.getElementById("txtIdNombre").value;
+
+	mensaje = "Su nombre es: " + nombreIngresado;
 
 
-	alert("Su nombre es: " + nombreIngresado);
+	alert(mensaje);
 
 }
 
