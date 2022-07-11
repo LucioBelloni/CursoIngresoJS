@@ -1,3 +1,6 @@
+//Belloni
+//Lucio
+
 function mostrar()
 {
 	let edad;
@@ -7,9 +10,9 @@ function mostrar()
 
 	if(edad < 13 ){
 		alert("Sos un niño");
-			
 	}
-	else if( edad < 18){
+	else
+	if( edad < 18){
 		alert("Sos un adolecente ");
 	}else{
 		alert("sos un adulto");

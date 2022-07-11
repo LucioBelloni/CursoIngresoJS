@@ -1,3 +1,5 @@
+// Belloni
+// Lucio
 function mostrar()
 {
 	let edad; 
